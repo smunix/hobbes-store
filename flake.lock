@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1619345332,
+        "narHash": "sha256-qHnQkEp1uklKTpx3MvKtY6xzgcqXDsz5nLilbbuL+3A=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "2ebf2558e5bf978c7fb8ea927dfaed8fefab2e28",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "fu": {
+      "locked": {
+        "lastModified": 1631561581,
+        "narHash": "sha256-3VQMV5zvxaVLvqqUrNz3iJelLw30mIVSfZmAaauM3dA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7e5bf3925f6fbdfaf50a2a7ca0be2879c4261d19",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "ms": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1632409902,
+        "narHash": "sha256-gxk8A7DjXkwRsztNsDiYO5oxq4PKw66H5OPn+a0Pgxc=",
+        "owner": "morganstanley",
+        "repo": "hobbes",
+        "rev": "8195bddc1ef8890a65b2dcdc4f3eab6ea7e72d5e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "morganstanley",
+        "repo": "hobbes",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1619586859,
+        "narHash": "sha256-8DiULA5rhWipZm0Wc9IjqG03jfYSigWFYZWXUVK1ZSI=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "267761cf44498f9e1aa81dbdb92d77d5873dd9f6",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "np": {
+      "locked": {
+        "lastModified": 1633311420,
+        "narHash": "sha256-lg04jSUZ1XspPtTQ6ks+jHnqw2ffFrvB4QHTD94v4ww=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "0d6d1e8cc0b960aee96a6a71436e57d8245b423f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "fu": "fu",
+        "ms": "ms",
+        "np": "np"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
